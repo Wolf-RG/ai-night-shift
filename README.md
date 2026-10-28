@@ -20,9 +20,11 @@ The countermeasure is boring: one task = one bounded slice (≈10 minutes of age
 
 | Path | What it is |
 |---|---|
+| `scope/checklist.md` | **Start here if you are about to queue tonight's work.** Twelve checks, one screen |
 | `queue/template.md` | The four fields a queue entry needs so a worker with no context can execute it |
 | `scope/rules.md` | What may run unattended, what may never, and the two ways to split an over-scoped task |
 | `watchdog/design.md` | Making "did nothing" visible: idle proof, alert cooldown, `WARN` vs `RUNNING` |
+| `watchdog/idle-check.sh` | Standalone `EMPTY` / `OK` / `STUCK` check for a timer, no dependencies |
 | `incidents/` | Three things that went wrong, with the numbers |
 
 ## License
